@@ -1,0 +1,95 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(143, 223, 255);
+    color: #333;
+    text-align: center;
+    line-height: 1.6;
+    padding: 0 20px;
+}
+
+/* Header styling */
+header h1 {
+    font-size: 3em;
+    margin-top: 20px;
+    color: #ca4747;
+}
+
+header h2 {
+    font-size: 1.5em;
+    color:#ca4747;
+    margin-top: 10px;
+}
+
+/* Start div styling */
+#start {
+    background-color: white;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Details section styling */
+details {
+    background-color: white;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+details summary {
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(133, 174, 228);
+    margin-bottom: 10px;
+}
+
+/* Video styling */
+video {
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 15px;
+}
+
+/* Main section styling */
+main {
+    margin-top: 40px;
+}
+
+/* Paragraph and image styling */
+main p {
+    font-size: 1.2em;
+    color: #444;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+main span p {
+    font-size: 1em;
+    color: #777;
+    margin-top: 10px;
+}
+
+main img {
+    border-radius: 15px;
+    border: 5px solid #fff;
+    margin-top: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Add a footer or additional styling (optional) */
+footer {
+    margin-top: 50px;
+    font-size: 1em;
+    color: #666;
+}
